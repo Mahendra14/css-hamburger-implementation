@@ -1,3 +1,38 @@
+*{
+    /* normal reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* pretty normal to display the animation happening */
 body{
-    background: rgb(187, 187, 240);
+    background: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    /* to see this whole we set the border */
+    border: 3px solid #fff;
+}
+
+
+.menu-btn_burger{
+    width: 50px;
+    height: 6px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
 }

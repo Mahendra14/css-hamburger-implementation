@@ -1,1 +1,0 @@
-document.getElementById("h1_id").style.background = 'black';
