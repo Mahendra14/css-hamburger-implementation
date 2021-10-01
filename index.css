@@ -57,3 +57,13 @@ body{
 .menu-btn_burger::after{
     transform: translateY(16px);
 }
+
+
+/* animation */
+
+.menu-btn.open .menu-btn_burger{
+    background: transparent;
+    box-shadow: none;
+    transform: translateX(-50px);
+
+}
