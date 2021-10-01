@@ -36,3 +36,24 @@ body{
     box-shadow: 0 1px 2px rgba(255, 101, 47, 0.2);
     transition: all 0.5s ease-in-out;
 }
+
+.menu-btn_burger::before,
+.menu-btn_burger::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn_burger::before{
+    transform: translateY(-16px);
+
+}
+
+.menu-btn_burger::after{
+    transform: translateY(16px);
+}
